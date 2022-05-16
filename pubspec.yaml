@@ -37,6 +37,8 @@ dependencies:
   http: any
   shared_preferences: any
   fluttertoast: any
+  api_cache_manager: ^1.0.2
+  snippet_coder_utils: ^1.0.12
 
 dev_dependencies:
   flutter_test:

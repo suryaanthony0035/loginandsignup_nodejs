@@ -41,7 +41,7 @@ class _MyHomePageState extends State<MyHomePage> {
   }
 
   void GotoLoginPage() {
-    Timer(Duration(seconds: 10), () {
+    Timer(Duration(seconds: 2), () {
       Route route = MaterialPageRoute(builder: (_) => LoginPage());
       Navigator.pushReplacement(context, route);
     });
